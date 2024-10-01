@@ -238,15 +238,18 @@
   }
 
 }
-
+/**/
 /*reponsive cho mobile*/
-@media (max-width: 400px) or (max-height: 700px) {
+@media (max-width: 760px) {
   .my-infor {
-    padding: 50px 70px;
+    padding: 45px 45px;
   }
 
   .img-background-mobile {
     display: block;
+  }
+  .my-major h2 {
+    font-size: 1.8rem;
   }
 
   .img-background {
@@ -263,6 +266,9 @@
   .my-contact a {
     font-size: 30px;
     padding: 0px 15px;
+  }
+  .technology-project{
+    display: flex;
   }
 
   .list-project {
