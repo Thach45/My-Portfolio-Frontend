@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     </head>
     <body>
@@ -19,7 +20,7 @@
                     <div id="navbarSupportedContent" class="collapse navbar-collapse">
                         <ul class="navbar-nav me-5 mb-5 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#main-contact">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Projects</a>
@@ -28,17 +29,11 @@
                                 <a class="nav-link" href="#">Blog</a>
                             </li>
                         </ul>
-                    <div class="col-7">
-                    </div>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
+                    
                 </div>
             </nav>
         </div>
-            <div class="main-contact">
+            <div id="main-contact">
                 <h1 class="text-center my-infor">
                     <img class="img-avatar" src="img/anh2.png">
                     <div class="my-major">
@@ -57,7 +52,7 @@
             <img class="img-background-mobile" src="img/anh_mobile.jpeg">
         <div class="main-project">
             <h1 class="text-center my-project">My Projects</h1>
-            <div class="list-project">
+            <div class="list-project" data-aos="fade-up" data-aos-duration="1000"->
                 <div class="project">
                     <img class="img-project img-thumbnail" src="img/anh-project1.png">
                     <h4 class="name-project">Website Selling Phones</h4>
@@ -96,6 +91,7 @@
         <div class="footer"></div>
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
         <script src="/script.js"></script>
     </body>
 </html>
