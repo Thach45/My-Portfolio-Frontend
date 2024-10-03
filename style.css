@@ -149,8 +149,9 @@
 }
 
 .main-project {
-  height: 300px;
+  
   width: 100%;
+  height: 100vh;
 }
 
 .name-project {
@@ -177,6 +178,7 @@
 .technology-project {
   text-align: end;
   padding: 15px 10px 10px 10px;
+  display: flex;
 }
 
 .img-thumbnail {
@@ -185,7 +187,7 @@
 
 .list-project {
   display: flex;
-  justify-content: space-between;
+ 
   margin: 40px;
 }
 
@@ -248,7 +250,27 @@
   }
 
 }
-/**/
+.more-project  a{
+  border-radius: 20px;
+  padding: 15px;
+  text-decoration: none;
+  margin-top: 10px;
+ 
+}
+.more-project:hover {
+  transform: scale(1.3);
+  transition: transform 0.3s ease
+  /* Hiệu ứng chuyển tiếp mượt mà */
+}
+
+ 
+/*footer*/
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 /*reponsive cho mobile*/
 @media (max-width: 760px) {
   .my-infor {

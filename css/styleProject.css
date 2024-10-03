@@ -1,0 +1,11 @@
+.list-project {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.project {
+    flex: 0 0 30%; /* Mỗi phần tử chiếm 30% chiều rộng của hàng */
+    box-sizing: border-box; /* Đảm bảo padding và border không ảnh hưởng đến chiều rộng */
+    margin-bottom: 20px; /* Khoảng cách giữa các hàng */
+}
